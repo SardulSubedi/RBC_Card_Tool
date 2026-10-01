@@ -1,0 +1,1900 @@
+{
+  "catalogVersion": "2026-10-01.1",
+  "calculationVersion": "2026.10.1",
+  "retrievedAt": "2026-10-01",
+  "defaultComparisonDate": "2026-10-01",
+  "nearTieCad": 25,
+  "sources": [
+    {
+      "id": "src-cashback-updates",
+      "url": "https://www.rbcroyalbank.com/credit-cards/cardholders/cash-back-updates.html",
+      "title": "Updates to RBC Cash Back Credit Cards",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": "2026-10-01",
+      "notes": "States the October 1, 2026 effective date, the new earn rates, the Preferred fee increase to $120, purchase APR 21.99%, removal of annual caps, Costco/Walmart warehouse treatment, and the VIP Banking rebate of up to $120."
+    },
+    {
+      "id": "src-cashback-category",
+      "url": "https://www.rbcroyalbank.com/credit-cards/cash-back.html",
+      "title": "RBC cash back credit cards comparison",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": "2026-10-01",
+      "notes": "New-applicant comparison: no-fee and Preferred fees, APRs, income test, and welcome headlines. Apply-by date February 2, 2027."
+    },
+    {
+      "id": "src-cashback-mc",
+      "url": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "title": "RBC Cash Back Mastercard",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": "2026-10-01",
+      "notes": "Live product page: $0 fee, 21.99% purchase APR, unlimited 2% groceries, 1% gas/EV/transit/rideshare, 0.5% other, and 5% extra on the first $2,000 within 6 months."
+    },
+    {
+      "id": "src-cashback-preferred",
+      "url": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-preferred-world-elite-mastercard.html",
+      "title": "RBC Cash Back Preferred World Elite Mastercard",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": "2026-10-01",
+      "notes": "Live product page confirms $120, 21.99%, income test, and unlimited 3%/1% category rates. A benefits PDF and some search snippets still describe the pre-October $99 and 1.5% schedule. Those older documents are not used for the October 1, 2026 term."
+    },
+    {
+      "id": "src-ion",
+      "url": "https://www.rbcroyalbank.com/credit-cards/rewards/rbc-ion-visa.html",
+      "title": "RBC ION Visa",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": null,
+      "notes": "No annual fee, 20.99% purchase APR, 1.5 points on groceries, gas, EV, transit, rideshare, streaming, and digital gaming, 1 point otherwise. Gift-card example: 1,400 points = $10. Welcome apply-by November 4, 2026. The page does not state a rule start date."
+    },
+    {
+      "id": "src-ion-plus",
+      "url": "https://www.rbcroyalbank.com/credit-cards/rewards/rbc-ion-plus-visa.html",
+      "title": "RBC ION+ Visa",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": null,
+      "notes": "$48 annual fee. 3 points named for groceries, gas, dining, food delivery, rideshare, and streaming. EV charging, transit, and digital gaming are included at 3 points because the page says “and more” and the ION Visa page defines that everyday group. That mapping is disclosed on the card."
+    },
+    {
+      "id": "src-rewards-compare",
+      "url": "https://www.rbcroyalbank.com/credit-cards/rewards.html",
+      "title": "RBC rewards credit cards comparison",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": null,
+      "notes": "Comparison table for ION, ION+, More Rewards, and moi, including welcome headlines and 20.99% purchase APRs. Moi: 500 points = $4."
+    },
+    {
+      "id": "src-avion-infinite",
+      "url": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite.html",
+      "title": "RBC Avion Visa Infinite",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": null,
+      "notes": "$120 fee, 20.99% purchase APR, income test, 1.25 points on travel and 1 point otherwise, Elite membership. Published travel conversion on the page: 100 points = $1. Fixed flight chart is not a flat rate. Welcome components: 35,000 on approval, 20,000 after $5,000 in six months, 15,000 anniversary."
+    },
+    {
+      "id": "src-travel-compare",
+      "url": "https://www.rbcroyalbank.com/credit-cards/travel.html",
+      "title": "RBC travel credit cards comparison",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": null,
+      "notes": "Comparison table for Avion Infinite, Avion Platinum, Avion Infinite Privilege, both WestJet cards, and British Airways Visa Infinite. Fees, income tests, purchase APRs, and headline earn rates. Avion Platinum and Infinite Privilege welcome splits were not verified beyond the headline."
+    },
+    {
+      "id": "src-nofee-compare",
+      "url": "https://www.rbcroyalbank.com/credit-cards/no-fee.html",
+      "title": "RBC no annual fee credit cards comparison",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": null,
+      "notes": "Used for More Rewards Visa Infinite earn rates and income test. The same page’s cash-back column still used pre-October wording in search snippets, so this card is marked partial."
+    },
+    {
+      "id": "src-low-rate",
+      "url": "https://www.rbcroyalbank.com/credit-cards/low-interest/rbc-visa-classic-low-rate.html",
+      "title": "RBC Visa Classic Low Rate Option",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": null,
+      "notes": "Published comparison figures: $20 annual fee and 12.99% purchase and cash-advance APR. A first-year fee waiver and 0.99% balance-transfer rate were advertised with apply-by dates of June 15, 2026 and September 30, 2026. Both are before the comparison date, so the waiver is not applied. No rewards earn rate was published."
+    },
+    {
+      "id": "src-prime",
+      "url": "https://www.rbcroyalbank.com/mortgages/mortgage-rates.html",
+      "title": "RBC prime rate on the mortgage rates page",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": "2025-10-30",
+      "notes": "Royal Bank prime 4.450% on the mortgage rates page retrieved October 1, 2026. The last posted change on the online-banking rates page was 2025-10-30. Not used in a ranked product because RateAdvantage’s applicant spread is disclosed only at application."
+    },
+    {
+      "id": "src-avion-redeem",
+      "url": "https://www.avionrewards.com/redeem.html",
+      "title": "Avion Rewards redemption overview",
+      "retrievedAt": "2026-10-01",
+      "applicableEffectiveDate": null,
+      "notes": "Describes gift cards, merchandise, and travel. It does not publish a single cents-per-point rate. Numeric Avion rates come from the card pages instead."
+    }
+  ],
+  "programs": [
+    {
+      "id": "rbc-cash-back",
+      "name": "RBC Cash Back",
+      "currency": "CAD",
+      "restrictions": "Statement credit. Phone redemption minimum is $25 through December 1, 2026, then $1 from December 2, 2026. Not modelled as a cap on earning.",
+      "defaultScenarioId": "face",
+      "scenarios": [
+        {
+          "id": "face",
+          "name": "Cash back at face value",
+          "method": "statement_credit",
+          "value": null,
+          "basis": "face_value",
+          "restrictions": "One dollar of cash back is one dollar.",
+          "sourceId": "src-cashback-updates",
+          "verifiedAt": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "avion-ion",
+      "name": "Avion points on ION cards",
+      "currency": "AVION_POINTS",
+      "restrictions": "Gift-card example is published. The 100 points = $1 travel rate is stated for Avion Visa cardholders and is not applied to ION.",
+      "defaultScenarioId": "gift-card",
+      "scenarios": [
+        {
+          "id": "gift-card",
+          "name": "Gift card, 1,400 points = $10",
+          "method": "gift_card",
+          "value": {
+            "cad": 10,
+            "points": 1400
+          },
+          "basis": "published",
+          "restrictions": "A published gift-card example, not a cash withdrawal and not the flight chart.",
+          "sourceId": "src-ion",
+          "verifiedAt": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "avion-elite",
+      "name": "Avion points on Avion Visa cards",
+      "currency": "AVION_POINTS",
+      "restrictions": "100 points = $1 is the published pay-with-points travel conversion. Fixed-chart flights can be worth more or less and are not converted at a flat rate.",
+      "defaultScenarioId": "travel-pay",
+      "scenarios": [
+        {
+          "id": "travel-pay",
+          "name": "Travel pay-with-points, 100 points = $1",
+          "method": "travel_credit",
+          "value": {
+            "cad": 1,
+            "points": 100
+          },
+          "basis": "published",
+          "restrictions": "Travel redemption, not unrestricted cash. Taxes and fees can still be due on award flights.",
+          "sourceId": "src-avion-infinite",
+          "verifiedAt": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "westjet",
+      "name": "WestJet points",
+      "currency": "WESTJET_POINTS",
+      "restrictions": "RBC illustrates 15,000 points as up to $150 off travel and 70,000 as up to $700. Redemption is WestJet travel, not cash.",
+      "defaultScenarioId": "travel-credit",
+      "scenarios": [
+        {
+          "id": "travel-credit",
+          "name": "Illustrated WestJet travel credit, 1¢ per point",
+          "method": "westjet_travel",
+          "value": {
+            "cad": 150,
+            "points": 15000
+          },
+          "basis": "illustrated",
+          "restrictions": "“Up to” travel credit. Not cash, and not guaranteed on every redemption.",
+          "sourceId": "src-travel-compare",
+          "verifiedAt": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "moi",
+      "name": "Moi points",
+      "currency": "MOI_POINTS",
+      "restrictions": "Redeemable at participating Metro, Jean Coutu, Super C, Brunet, Food Basics, and Première Moisson stores. 500 points = $4 on the rewards comparison page.",
+      "defaultScenarioId": "store",
+      "scenarios": [
+        {
+          "id": "store",
+          "name": "Moi store value, 500 points = $4",
+          "method": "store_credit",
+          "value": {
+            "cad": 4,
+            "points": 500
+          },
+          "basis": "published",
+          "restrictions": "Store value at participating banners, not cash.",
+          "sourceId": "src-rewards-compare",
+          "verifiedAt": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "more-rewards",
+      "name": "More Rewards points",
+      "currency": "MORE_POINTS",
+      "restrictions": "RBC illustrates 20,000 welcome points as $30 in groceries. That rate is not a general cash price list.",
+      "defaultScenarioId": "grocery-illustration",
+      "scenarios": [
+        {
+          "id": "grocery-illustration",
+          "name": "Illustrated grocery value, 20,000 points = $30",
+          "method": "partner_grocery",
+          "value": {
+            "cad": 30,
+            "points": 20000
+          },
+          "basis": "illustrated",
+          "restrictions": "Partner-grocery illustration from the welcome headline. Other redemptions may differ.",
+          "sourceId": "src-rewards-compare",
+          "verifiedAt": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "avios",
+      "name": "British Airways Avios",
+      "currency": "AVIOS",
+      "restrictions": "Avios redemptions vary by route and cabin. No single CAD conversion is published on the RBC page.",
+      "defaultScenarioId": null,
+      "scenarios": []
+    },
+    {
+      "id": "no-rewards",
+      "name": "No published earn rate",
+      "currency": "CAD",
+      "restrictions": "No purchase rewards rate was found for this product.",
+      "defaultScenarioId": "none",
+      "scenarios": [
+        {
+          "id": "none",
+          "name": "No rewards modelled",
+          "method": "none",
+          "value": null,
+          "basis": "unknown",
+          "restrictions": "Rewards are modelled as zero because no earn rate was published.",
+          "sourceId": "src-low-rate",
+          "verifiedAt": "2026-10-01"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "rbc-cash-back-mastercard",
+      "slug": "rbc-cash-back-mastercard",
+      "name": "RBC Cash Back Mastercard",
+      "network": "mastercard",
+      "family": "cash_back",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "activeStatus": "active",
+      "image": "/cards/cashback.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "cb-mc-before-2026-10",
+          "effectiveFrom": null,
+          "effectiveTo": "2026-09-30",
+          "annualFeeCad": 0,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR before the October 1, 2026 change",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "rbc-cash-back",
+          "eligibility": "No published personal or household income minimum.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-cashback-updates",
+          "benefits": [
+            "Purchase security and extended warranty. Not valued in dollars."
+          ],
+          "offers": [],
+          "rules": [
+            {
+              "id": "cb-mc-old-groc-hi",
+              "categories": [
+                "groceries"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.02,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": 6000,
+              "capGroupId": "cb-mc-grocery",
+              "resetPeriod": "annual",
+              "priority": 30,
+              "conditions": "Grocery MCC 5411, first $6,000 in a year.",
+              "sourceId": "src-cashback-updates"
+            },
+            {
+              "id": "cb-mc-old-groc-lo",
+              "categories": [
+                "groceries"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.01,
+              "fallbackRate": null,
+              "tierLowerCad": 6000,
+              "tierUpperCad": null,
+              "capGroupId": "cb-mc-grocery",
+              "resetPeriod": "annual",
+              "priority": 20,
+              "conditions": "Grocery purchases after $6,000 in a year.",
+              "sourceId": "src-cashback-updates"
+            },
+            {
+              "id": "cb-mc-old-other-hi",
+              "categories": [
+                "warehouse",
+                "dining",
+                "gas",
+                "ev_charging",
+                "transit",
+                "rideshare",
+                "streaming",
+                "gaming",
+                "bills",
+                "travel",
+                "other"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.005,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": 6000,
+              "capGroupId": "cb-mc-other",
+              "resetPeriod": "annual",
+              "priority": 30,
+              "conditions": "Non-grocery net purchases, first $6,000 in a year.",
+              "sourceId": "src-cashback-updates"
+            },
+            {
+              "id": "cb-mc-old-other-lo",
+              "categories": [
+                "warehouse",
+                "dining",
+                "gas",
+                "ev_charging",
+                "transit",
+                "rideshare",
+                "streaming",
+                "gaming",
+                "bills",
+                "travel",
+                "other"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.01,
+              "fallbackRate": null,
+              "tierLowerCad": 6000,
+              "tierUpperCad": null,
+              "capGroupId": "cb-mc-other",
+              "resetPeriod": "annual",
+              "priority": 20,
+              "conditions": "Non-grocery net purchases after $6,000 in a year.",
+              "sourceId": "src-cashback-updates"
+            }
+          ]
+        },
+        {
+          "id": "cb-mc-from-2026-10",
+          "effectiveFrom": "2026-10-01",
+          "effectiveTo": null,
+          "annualFeeCad": 0,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.2199,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "21.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "rbc-cash-back",
+          "eligibility": "No published personal or household income minimum.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-cashback-mc",
+          "benefits": [
+            "Purchase security and extended warranty. Not valued in dollars.",
+            "DashPass offer is a subscription benefit, not valued in dollars."
+          ],
+          "offers": [
+            {
+              "id": "cb-mc-welcome",
+              "validFrom": "2026-10-01",
+              "validTo": "2027-02-02",
+              "modelled": true,
+              "kind": "extra_cash_fraction",
+              "extraFraction": 0.05,
+              "spendCapCad": 2000,
+              "windowMonths": 6,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": true,
+              "headline": "5% extra cash back on the first $2,000 in the first 6 months",
+              "notes": "Extra means on top of the ordinary category rate. Apply by February 2, 2027.",
+              "sourceId": "src-cashback-mc"
+            }
+          ],
+          "rules": [
+            {
+              "id": "cb-mc-groc",
+              "categories": [
+                "groceries"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.02,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "Unlimited grocery stores, MCC 5411. Costco and Walmart are not in this category.",
+              "sourceId": "src-cashback-mc"
+            },
+            {
+              "id": "cb-mc-transport",
+              "categories": [
+                "gas",
+                "ev_charging",
+                "transit",
+                "rideshare"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.01,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "Unlimited gas, EV charging, transit, and rideshare.",
+              "sourceId": "src-cashback-mc"
+            },
+            {
+              "id": "cb-mc-other",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.005,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "Unlimited fallback, including dining, streaming, gaming, bills, travel, warehouse, and other purchases.",
+              "sourceId": "src-cashback-mc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rbc-cash-back-preferred",
+      "slug": "rbc-cash-back-preferred",
+      "name": "RBC Cash Back Preferred World Elite Mastercard",
+      "network": "mastercard",
+      "family": "cash_back",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-preferred-world-elite-mastercard.html",
+      "activeStatus": "active",
+      "image": "/cards/cashback-preferred.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "cb-pref-before-2026-10",
+          "effectiveFrom": null,
+          "effectiveTo": "2026-09-30",
+          "annualFeeCad": 99,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR before the October 1, 2026 change",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "rbc-cash-back",
+          "eligibility": "Personal income of $80,000 or household income of $150,000.",
+          "incomeRule": {
+            "personalMin": 80000,
+            "householdMin": 150000,
+            "logic": "or",
+            "label": "personal income of $80,000 or household income of $150,000"
+          },
+          "vipRebateCad": 99,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-cashback-updates",
+          "benefits": [
+            "World Elite insurance and paid DragonPass lounge access. Lounge visits are not free and are not valued here."
+          ],
+          "offers": [],
+          "rules": [
+            {
+              "id": "cb-pref-old-hi",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.015,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": 25000,
+              "capGroupId": "cb-pref-all",
+              "resetPeriod": "annual",
+              "priority": 20,
+              "conditions": "1.5% on the first $25,000 of net purchases in a year.",
+              "sourceId": "src-cashback-updates"
+            },
+            {
+              "id": "cb-pref-old-lo",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.01,
+              "fallbackRate": null,
+              "tierLowerCad": 25000,
+              "tierUpperCad": null,
+              "capGroupId": "cb-pref-all",
+              "resetPeriod": "annual",
+              "priority": 10,
+              "conditions": "1% after $25,000 of net purchases in a year.",
+              "sourceId": "src-cashback-updates"
+            }
+          ]
+        },
+        {
+          "id": "cb-pref-from-2026-10",
+          "effectiveFrom": "2026-10-01",
+          "effectiveTo": null,
+          "annualFeeCad": 120,
+          "additionalCardFeeCad": 50,
+          "purchaseApr": 0.2199,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "21.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "rbc-cash-back",
+          "eligibility": "Personal income of $80,000 or household income of $150,000.",
+          "incomeRule": {
+            "personalMin": 80000,
+            "householdMin": 150000,
+            "logic": "or",
+            "label": "personal income of $80,000 or household income of $150,000"
+          },
+          "vipRebateCad": 120,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-cashback-preferred",
+          "benefits": [
+            "Out-of-province medical, flight delay, delayed baggage, mobile device, purchase security, and rental-car damage waiver. Not valued in dollars.",
+            "DragonPass lounge access is a paid visit, not a free lounge benefit, and is not valued."
+          ],
+          "offers": [
+            {
+              "id": "cb-pref-welcome",
+              "validFrom": "2026-10-01",
+              "validTo": "2027-02-02",
+              "modelled": true,
+              "kind": "extra_cash_fraction",
+              "extraFraction": 0.15,
+              "spendCapCad": 2000,
+              "windowMonths": 3,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": true,
+              "headline": "15% extra cash back on the first $2,000 in the first 3 months",
+              "notes": "Extra is on top of ordinary category rates. Apply by February 2, 2027.",
+              "sourceId": "src-cashback-preferred"
+            }
+          ],
+          "rules": [
+            {
+              "id": "cb-pref-3",
+              "categories": [
+                "groceries",
+                "dining",
+                "gas",
+                "ev_charging",
+                "transit",
+                "rideshare",
+                "streaming",
+                "gaming"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.03,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "Unlimited 3% on the named everyday categories. Dining includes restaurants and takeout when the MCC matches.",
+              "sourceId": "src-cashback-preferred"
+            },
+            {
+              "id": "cb-pref-1",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0.01,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "Unlimited 1% fallback, including Costco, Walmart, travel, bills, and other purchases.",
+              "sourceId": "src-cashback-preferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rbc-ion-visa",
+      "slug": "rbc-ion-visa",
+      "name": "RBC ION Visa",
+      "network": "visa",
+      "family": "everyday",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/rewards/rbc-ion-visa.html",
+      "activeStatus": "active",
+      "image": "/cards/ion.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "rbc-ion-visa-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 0,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "avion-ion",
+          "eligibility": "No published income minimum. Positioned for students and newcomers, which does not by itself change the earn rate.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-ion",
+          "rules": [
+            {
+              "id": "ion-15",
+              "categories": [
+                "groceries",
+                "gas",
+                "ev_charging",
+                "transit",
+                "rideshare",
+                "streaming",
+                "gaming"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1.5,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "1.5 points on the everyday group named on the ION Visa page. Dining is not in that group.",
+              "sourceId": "src-ion"
+            },
+            {
+              "id": "ion-1",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "",
+              "sourceId": "src-ion"
+            }
+          ],
+          "offers": [
+            {
+              "id": "ion-welcome",
+              "validFrom": null,
+              "validTo": "2026-11-04",
+              "modelled": true,
+              "kind": "bonus_points",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": 3,
+              "approvalPoints": 7000,
+              "spendThresholdCad": 500,
+              "bonusPoints": 7000,
+              "anniversaryPoints": null,
+              "stacksWithBase": true,
+              "headline": "Up to 14,000 Avion points: 7,000 on approval and 7,000 after $500 in 3 months",
+              "notes": "Apply by November 4, 2026. Gift-card illustration up to $100 uses the same 1,400 points = $10 example.",
+              "sourceId": "src-ion"
+            }
+          ],
+          "benefits": [
+            "No annual fee. Avion points do not expire while the account stays open and in good standing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rbc-ion-plus-visa",
+      "slug": "rbc-ion-plus-visa",
+      "name": "RBC ION+ Visa",
+      "network": "visa",
+      "family": "everyday",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/rewards/rbc-ion-plus-visa.html",
+      "activeStatus": "active",
+      "image": "/cards/ion-plus.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "rbc-ion-plus-visa-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 48,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "avion-ion",
+          "eligibility": "No published income minimum.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "partial",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-ion-plus",
+          "rules": [
+            {
+              "id": "ionp-3-named",
+              "categories": [
+                "groceries",
+                "gas",
+                "dining",
+                "rideshare",
+                "streaming"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 3,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "Named on the ION+ page.",
+              "sourceId": "src-ion-plus"
+            },
+            {
+              "id": "ionp-3-inferred",
+              "categories": [
+                "ev_charging",
+                "transit",
+                "gaming"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 3,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "Included from ION+ “and more” using the ION Visa everyday group. Not a quoted ION+ MCC list.",
+              "sourceId": "src-ion-plus"
+            },
+            {
+              "id": "ionp-1",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "",
+              "sourceId": "src-ion-plus"
+            }
+          ],
+          "offers": [
+            {
+              "id": "ionp-welcome",
+              "validFrom": null,
+              "validTo": "2026-11-04",
+              "modelled": true,
+              "kind": "bonus_points",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": 6,
+              "approvalPoints": 7000,
+              "spendThresholdCad": 1500,
+              "bonusPoints": 14000,
+              "anniversaryPoints": 7000,
+              "stacksWithBase": true,
+              "headline": "Up to 28,000 Avion points, including a 7,000-point anniversary bonus that is not in the 12-month total",
+              "notes": "7,000 on approval and 14,000 after $1,500 in six months are modelled. Apply by November 4, 2026.",
+              "sourceId": "src-ion-plus"
+            }
+          ],
+          "benefits": [
+            "Avion points. Anniversary bonus is not included in the 12-month total."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rbc-avion-visa-infinite",
+      "slug": "rbc-avion-visa-infinite",
+      "name": "RBC Avion Visa Infinite",
+      "network": "visa",
+      "family": "travel",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite.html",
+      "activeStatus": "active",
+      "image": "/cards/avion-infinite.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "rbc-avion-visa-infinite-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 120,
+          "additionalCardFeeCad": 50,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "avion-elite",
+          "eligibility": "Personal income of $60,000 or household income of $100,000.",
+          "incomeRule": {
+            "personalMin": 60000,
+            "householdMin": 100000,
+            "logic": "or",
+            "label": "personal income of $60,000 or household income of $100,000"
+          },
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-avion-infinite",
+          "rules": [
+            {
+              "id": "avion-inf-travel",
+              "categories": [
+                "travel"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1.25,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "1.25 points on travel-related purchases. The whole travel amount is treated as travel, which can overstate merchants that do not use a travel MCC.",
+              "sourceId": "src-avion-infinite"
+            },
+            {
+              "id": "avion-inf-base",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "",
+              "sourceId": "src-avion-infinite"
+            }
+          ],
+          "offers": [
+            {
+              "id": "avion-inf-welcome",
+              "validFrom": null,
+              "validTo": "2026-11-25",
+              "modelled": true,
+              "kind": "bonus_points",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": 6,
+              "approvalPoints": 35000,
+              "spendThresholdCad": 5000,
+              "bonusPoints": 20000,
+              "anniversaryPoints": 15000,
+              "stacksWithBase": true,
+              "headline": "Up to 70,000 Avion points. The 15,000 anniversary points are not in the 12-month total.",
+              "notes": "Apply by November 25, 2026. New applications only; product transfers are excluded by the offer.",
+              "sourceId": "src-avion-infinite"
+            }
+          ],
+          "benefits": [
+            "Avion Elite membership and flexible flight bookings. The fixed flight chart is not converted at the flat $1 per 100 points rate.",
+            "Travel medical, trip cancellation, mobile device, and rental-car coverage. Not valued in dollars."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rbc-avion-visa-platinum",
+      "slug": "rbc-avion-visa-platinum",
+      "name": "RBC Avion Visa Platinum",
+      "network": "visa",
+      "family": "travel",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-platinum.html",
+      "activeStatus": "active",
+      "image": "/cards/avion-platinum.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "rbc-avion-visa-platinum-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 120,
+          "additionalCardFeeCad": 50,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "avion-elite",
+          "eligibility": "No published income minimum on the travel comparison table.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "partial",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-travel-compare",
+          "rules": [
+            {
+              "id": "avion-plat-base",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "1 point per dollar on everyday purchases. No travel accelerator is listed.",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "offers": [
+            {
+              "id": "avion-plat-welcome",
+              "validFrom": null,
+              "validTo": "2026-11-25",
+              "modelled": false,
+              "kind": "unmodelled",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": null,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": false,
+              "headline": "Comparison page advertises up to 70,000 Avion points by November 25, 2026",
+              "notes": "The point split was verified on the Infinite page only, so it is not added for Platinum.",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "benefits": [
+            "Avion travel redemption at the published 100 points = $1 pay-with-points rate. Flight chart not modelled as cash."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rbc-avion-visa-infinite-privilege",
+      "slug": "rbc-avion-visa-infinite-privilege",
+      "name": "RBC Avion Visa Infinite Privilege",
+      "network": "visa",
+      "family": "travel",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/travel/rbc-avion-visa-infinite-privilege.html",
+      "activeStatus": "active",
+      "image": "/cards/avion-privilege.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "rbc-avion-visa-infinite-privilege-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 399,
+          "additionalCardFeeCad": 99,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "avion-elite",
+          "eligibility": "Personal or household income of $200,000.",
+          "incomeRule": {
+            "personalMin": 200000,
+            "householdMin": 200000,
+            "logic": "or",
+            "label": "personal income of $200,000 or household income of $200,000"
+          },
+          "vipRebateCad": null,
+          "verificationStatus": "partial",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-travel-compare",
+          "rules": [
+            {
+              "id": "avion-priv-base",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1.25,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "1.25 points on everyday purchases, from the travel comparison table.",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "offers": [
+            {
+              "id": "avion-priv-welcome",
+              "validFrom": null,
+              "validTo": "2026-11-25",
+              "modelled": false,
+              "kind": "unmodelled",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": null,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": false,
+              "headline": "Up to 100,000 Avion points and 6 lounge passes by November 25, 2026",
+              "notes": "Component split was not verified, so the headline is not added to the total.",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "benefits": [
+            "Lounge passes in the welcome headline are not valued.",
+            "Higher redemption on business and first-class tickets is not modelled as a flat point value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "westjet-rbc-mastercard",
+      "slug": "westjet-rbc-mastercard",
+      "name": "WestJet RBC Mastercard",
+      "network": "mastercard",
+      "family": "travel",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/travel.html",
+      "activeStatus": "active",
+      "image": "/cards/westjet.jpg",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "westjet-rbc-mastercard-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 39,
+          "additionalCardFeeCad": 19,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "westjet",
+          "eligibility": "No published income minimum.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-travel-compare",
+          "rules": [
+            {
+              "id": "wj-flight",
+              "categories": [
+                "travel"
+              ],
+              "slice": "westjet",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1.5,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 40,
+              "conditions": "1.5 points on WestJet, WestJet Vacations, and Sunwing. Other travel stays at 1 point.",
+              "sourceId": "src-travel-compare"
+            },
+            {
+              "id": "wj-dining",
+              "categories": [
+                "dining",
+                "streaming",
+                "gaming"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1.5,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "",
+              "sourceId": "src-travel-compare"
+            },
+            {
+              "id": "wj-base",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "offers": [
+            {
+              "id": "wj-welcome",
+              "validFrom": null,
+              "validTo": null,
+              "modelled": false,
+              "kind": "unmodelled",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": null,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": false,
+              "headline": "Up to 15,000 WestJet points, illustrated as up to $150 off travel",
+              "notes": "The earn split for the welcome offer was not published on the comparison table, so it is not added.",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "benefits": [
+            "WestJet points redeem as travel credit, not cash."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "westjet-rbc-world-elite",
+      "slug": "westjet-rbc-world-elite",
+      "name": "WestJet RBC World Elite Mastercard",
+      "network": "mastercard",
+      "family": "travel",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/travel.html",
+      "activeStatus": "active",
+      "image": "/cards/westjet-we.jpg",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "westjet-rbc-world-elite-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 139,
+          "additionalCardFeeCad": 59,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "westjet",
+          "eligibility": "Personal income of $80,000 or household income of $150,000.",
+          "incomeRule": {
+            "personalMin": 80000,
+            "householdMin": 150000,
+            "logic": "or",
+            "label": "personal income of $80,000 or household income of $150,000"
+          },
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-travel-compare",
+          "rules": [
+            {
+              "id": "wjwe-flight",
+              "categories": [
+                "travel"
+              ],
+              "slice": "westjet",
+              "earnUnit": "points_per_cad",
+              "earnRate": 2,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 40,
+              "conditions": "2 points on WestJet, WestJet Vacations, and Sunwing.",
+              "sourceId": "src-travel-compare"
+            },
+            {
+              "id": "wjwe-everyday",
+              "categories": [
+                "groceries",
+                "gas",
+                "ev_charging",
+                "transit",
+                "rideshare"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 2,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "2 points at grocery stores and on transportation.",
+              "sourceId": "src-travel-compare"
+            },
+            {
+              "id": "wjwe-base",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1.5,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "1.5 points on other everyday purchases, including travel that is not WestJet or Sunwing.",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "offers": [
+            {
+              "id": "wjwe-welcome",
+              "validFrom": null,
+              "validTo": null,
+              "modelled": false,
+              "kind": "unmodelled",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": null,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": false,
+              "headline": "Up to 70,000 WestJet points, illustrated as up to $700 off travel",
+              "notes": "Welcome components were not verified, so they are not added to the total.",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "benefits": [
+            "WestJet points. World Elite benefits are not valued in dollars."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moi-rbc-visa",
+      "slug": "moi-rbc-visa",
+      "name": "moi RBC Visa",
+      "network": "visa",
+      "family": "everyday",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/rewards.html",
+      "activeStatus": "active",
+      "image": "/cards/moi.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "moi-rbc-visa-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 0,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "moi",
+          "eligibility": "No published income minimum.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-rewards-compare",
+          "rules": [
+            {
+              "id": "moi-banner",
+              "categories": [
+                "groceries"
+              ],
+              "slice": "moi_banner",
+              "earnUnit": "points_per_cad",
+              "earnRate": 2,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 40,
+              "conditions": "2 points when groceries are at a participating Moi banner. Other groceries earn 1 point.",
+              "sourceId": "src-rewards-compare"
+            },
+            {
+              "id": "moi-accel",
+              "categories": [
+                "dining",
+                "gas",
+                "ev_charging"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 2,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "2 points on participating dining, gas, and EV charging. Beauty is not a separate input.",
+              "sourceId": "src-rewards-compare"
+            },
+            {
+              "id": "moi-base",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "",
+              "sourceId": "src-rewards-compare"
+            }
+          ],
+          "offers": [
+            {
+              "id": "moi-welcome",
+              "validFrom": null,
+              "validTo": "2027-01-20",
+              "modelled": false,
+              "kind": "unmodelled",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": null,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": false,
+              "headline": "Up to 5,000 Moi points, illustrated as $40, apply by January 20, 2027",
+              "notes": "The offer says “up to”, and the earn split was not verified, so it is not added.",
+              "sourceId": "src-rewards-compare"
+            }
+          ],
+          "benefits": [
+            "Moi points are store value at participating banners, not cash."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-rewards-rbc-visa",
+      "slug": "more-rewards-rbc-visa",
+      "name": "More Rewards RBC Visa",
+      "network": "visa",
+      "family": "everyday",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/rewards.html",
+      "activeStatus": "active",
+      "image": "/cards/more-rewards.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "more-rewards-rbc-visa-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 0,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "more-rewards",
+          "eligibility": "No published income minimum.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-rewards-compare",
+          "rules": [
+            {
+              "id": "more-partner",
+              "categories": [
+                "groceries"
+              ],
+              "slice": "more_partner",
+              "earnUnit": "points_per_cad",
+              "earnRate": 5,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 40,
+              "conditions": "5 points at More Rewards partners such as Save-On-Foods. Other groceries earn the 3-point base.",
+              "sourceId": "src-rewards-compare"
+            },
+            {
+              "id": "more-accel",
+              "categories": [
+                "gas",
+                "ev_charging",
+                "dining"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 5,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "",
+              "sourceId": "src-rewards-compare"
+            },
+            {
+              "id": "more-base",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 3,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "",
+              "sourceId": "src-rewards-compare"
+            }
+          ],
+          "offers": [
+            {
+              "id": "more-welcome",
+              "validFrom": null,
+              "validTo": null,
+              "modelled": false,
+              "kind": "unmodelled",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": null,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": false,
+              "headline": "Up to 20,000 More Rewards points, illustrated as $30 in groceries",
+              "notes": "Used as the valuation illustration. The bonus itself is not added because the qualifying split was not verified.",
+              "sourceId": "src-rewards-compare"
+            }
+          ],
+          "benefits": [
+            "More Rewards points. Partner grocery value is an illustration, not cash."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-rewards-rbc-visa-infinite",
+      "slug": "more-rewards-rbc-visa-infinite",
+      "name": "More Rewards RBC Visa Infinite",
+      "network": "visa",
+      "family": "everyday",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/rewards/more-rewards-rbc-visa-infinite.html",
+      "activeStatus": "active",
+      "image": "/cards/more-rewards-infinite.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "more-rewards-rbc-visa-infinite-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 0,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.2099,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.99% purchase APR",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "more-rewards",
+          "eligibility": "Personal income of $60,000 or household income of $100,000.",
+          "incomeRule": {
+            "personalMin": 60000,
+            "householdMin": 100000,
+            "logic": "or",
+            "label": "personal income of $60,000 or household income of $100,000"
+          },
+          "vipRebateCad": null,
+          "verificationStatus": "partial",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-nofee-compare",
+          "rules": [
+            {
+              "id": "more-inf-partner",
+              "categories": [
+                "groceries"
+              ],
+              "slice": "more_partner",
+              "earnUnit": "points_per_cad",
+              "earnRate": 8,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 40,
+              "conditions": "",
+              "sourceId": "src-nofee-compare"
+            },
+            {
+              "id": "more-inf-accel",
+              "categories": [
+                "gas",
+                "ev_charging",
+                "dining"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 8,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "",
+              "sourceId": "src-nofee-compare"
+            },
+            {
+              "id": "more-inf-base",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 4,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "",
+              "sourceId": "src-nofee-compare"
+            }
+          ],
+          "offers": [],
+          "benefits": [
+            "Same illustrated More Rewards value as the no-fee More Rewards card. Confirm the live page before applying; the no-fee comparison’s cash-back column was stale on October 1, 2026."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rbc-visa-classic-low-rate",
+      "slug": "rbc-visa-classic-low-rate",
+      "name": "RBC Visa Classic Low Rate Option",
+      "network": "visa",
+      "family": "low_interest",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/low-interest/rbc-visa-classic-low-rate.html",
+      "activeStatus": "active",
+      "image": "/cards/visa-classic-blue.png",
+      "rankEligible": true,
+      "unrankedReason": null,
+      "rewardsAssumption": "No rewards earn rate is published. Rewards are modelled as zero.",
+      "termVersions": [
+        {
+          "id": "rbc-visa-classic-low-rate-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 20,
+          "additionalCardFeeCad": 0,
+          "purchaseApr": 0.1299,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "12.99% purchase APR",
+          "cashAdvanceApr": 0.1299,
+          "rewardProgramId": "no-rewards",
+          "eligibility": "No published income minimum.",
+          "incomeRule": null,
+          "vipRebateCad": null,
+          "verificationStatus": "partial",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-low-rate",
+          "rules": [
+            {
+              "id": "low-rate-zero",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "cash_back_fraction",
+              "earnRate": 0,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "No published earn rate. Purchases are allocated at zero so they are not left unmodelled.",
+              "sourceId": "src-low-rate"
+            }
+          ],
+          "offers": [
+            {
+              "id": "low-rate-expired",
+              "validFrom": null,
+              "validTo": "2026-09-30",
+              "modelled": false,
+              "kind": "unmodelled",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": null,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": false,
+              "headline": "Expired: first-year annual-fee waiver and 0.99% balance-transfer rate",
+              "notes": "Apply-by dates on RBC pages were June 15, 2026 and September 30, 2026.",
+              "sourceId": "src-low-rate"
+            }
+          ],
+          "benefits": [
+            "Lower purchase APR than the rewards cards. The expired first-year fee waiver is not applied."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rbc-ba-visa-infinite",
+      "slug": "rbc-ba-visa-infinite",
+      "name": "RBC British Airways Visa Infinite",
+      "network": "visa",
+      "family": "travel",
+      "currency": "CAD",
+      "productUrl": "https://www.rbcroyalbank.com/credit-cards/travel.html",
+      "activeStatus": "active",
+      "image": "/cards/ba-infinite.png",
+      "rankEligible": false,
+      "unrankedReason": "Insufficient verified data to rank. Avios do not have a published CAD conversion.",
+      "rewardsAssumption": null,
+      "termVersions": [
+        {
+          "id": "rbc-ba-visa-infinite-current",
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "annualFeeCad": 165,
+          "additionalCardFeeCad": 75,
+          "purchaseApr": 0.205,
+          "aprLow": null,
+          "aprHigh": null,
+          "aprLabel": "20.50% purchase APR on the travel comparison table",
+          "cashAdvanceApr": 0.2299,
+          "rewardProgramId": "avios",
+          "eligibility": "Personal income of $60,000 or household income of $100,000.",
+          "incomeRule": {
+            "personalMin": 60000,
+            "householdMin": 100000,
+            "logic": "or",
+            "label": "personal income of $60,000 or household income of $100,000"
+          },
+          "vipRebateCad": null,
+          "verificationStatus": "verified",
+          "verifiedAt": "2026-10-01",
+          "sourceId": "src-travel-compare",
+          "rules": [
+            {
+              "id": "ba-3",
+              "categories": [
+                "travel"
+              ],
+              "slice": "ba",
+              "earnUnit": "points_per_cad",
+              "earnRate": 3,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 40,
+              "conditions": "3 Avios per dollar on British Airways purchases only.",
+              "sourceId": "src-travel-compare"
+            },
+            {
+              "id": "ba-2",
+              "categories": [
+                "dining"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 2,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 30,
+              "conditions": "",
+              "sourceId": "src-travel-compare"
+            },
+            {
+              "id": "ba-1",
+              "categories": [
+                "*"
+              ],
+              "slice": "any",
+              "earnUnit": "points_per_cad",
+              "earnRate": 1,
+              "fallbackRate": null,
+              "tierLowerCad": 0,
+              "tierUpperCad": null,
+              "capGroupId": null,
+              "resetPeriod": "none",
+              "priority": 10,
+              "conditions": "",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "offers": [
+            {
+              "id": "ba-welcome",
+              "validFrom": null,
+              "validTo": null,
+              "modelled": false,
+              "kind": "unmodelled",
+              "extraFraction": null,
+              "spendCapCad": null,
+              "windowMonths": null,
+              "approvalPoints": null,
+              "spendThresholdCad": null,
+              "bonusPoints": null,
+              "anniversaryPoints": null,
+              "stacksWithBase": false,
+              "headline": "50,000 bonus Avios headline on the travel comparison page",
+              "notes": "Not converted to dollars and not added to a total.",
+              "sourceId": "src-travel-compare"
+            }
+          ],
+          "benefits": [
+            "Avios can be redeemed with British Airways. No dollar value is assigned unless you enter one."
+          ]
+        }
+      ]
+    }
+  ]
+}

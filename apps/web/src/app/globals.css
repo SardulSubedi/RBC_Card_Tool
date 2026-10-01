@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #002754;
+  --color-blue: #0051a5;
+  --color-gold: #a67c2d;
+  --color-paper: #f3f6fa;
+  --color-ink: #142033;
+  --color-muted: #526277;
+  --color-line: #d5deea;
+  --color-good: #0c6b4d;
+  --color-bad: #8c2f2f;
+  --font-sans: var(--font-source), "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 2px;
+}
+
+input[type="range"] {
+  accent-color: var(--color-blue);
+}

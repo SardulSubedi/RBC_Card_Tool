@@ -1,0 +1,20 @@
+{
+  "name": "cardfit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CardFit — RBC Card Explorer. Independent portfolio prototype.",
+  "workspaces": [
+    "apps/web",
+    "packages/engine"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace apps/web",
+    "build": "npm run build --workspace apps/web",
+    "typecheck": "npm run typecheck --workspace apps/web && npm run typecheck --workspace packages/engine",
+    "test": "npm run test --workspace packages/engine",
+    "test:e2e": "npm run test:e2e --workspace apps/web",
+    "catalog:validate": "python analysis/validate_catalog.py",
+    "catalog:seed": "python analysis/seed_catalog.py",
+    "analysis": "python analysis/demo_profiles.py"
+  }
+}
