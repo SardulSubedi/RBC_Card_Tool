@@ -35,6 +35,8 @@ npm run dev
 
 Open http://127.0.0.1:3000.
 
+The same static site is published at https://sardulsubedi.github.io/RBC_Card_Tool/. That build uses a `/RBC_Card_Tool` path prefix. A normal `npm run build` does not, so `apps/web/out` can be served from the root of any static host.
+
 ```bash
 npm test
 npm run typecheck
