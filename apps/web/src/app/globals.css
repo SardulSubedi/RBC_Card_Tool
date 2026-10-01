@@ -1,16 +1,20 @@
 @import "tailwindcss";
 
 @theme {
+  --color-rbc: #0051a5;
+  --color-deep: #002d64;
   --color-navy: #002754;
   --color-blue: #0051a5;
-  --color-gold: #a67c2d;
-  --color-paper: #f3f6fa;
-  --color-ink: #142033;
-  --color-muted: #526277;
-  --color-line: #d5deea;
+  --color-sky: #eaf1fb;
+  --color-gold: #e3a81b;
+  --color-paper: #f5f7fb;
+  --color-ink: #10213a;
+  --color-muted: #53627a;
+  --color-line: #d6dfeb;
   --color-good: #0c6b4d;
   --color-bad: #8c2f2f;
   --font-sans: var(--font-source), "Segoe UI", sans-serif;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 html {
@@ -18,16 +22,209 @@ html {
 }
 
 body {
-  background: var(--color-paper);
+  background: #ffffff;
   color: var(--color-ink);
   font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #0051a5;
+  color: #ffffff;
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-blue);
-  outline-offset: 2px;
+  outline: 3px solid #0051a5;
+  outline-offset: 3px;
+  border-radius: 6px;
 }
 
+.on-blue :focus-visible {
+  outline-color: #ffffff;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #b9c7da transparent;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b9c7da;
+  border-radius: 999px;
+  border: 2px solid #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+  letter-spacing: -0.015em;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Range sliders */
 input[type="range"] {
-  accent-color: var(--color-blue);
+  appearance: none;
+  height: 28px;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #0051a5 0 var(--fill, 0%), #d6dfeb var(--fill, 0%) 100%);
+}
+
+input[type="range"]::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: #d6dfeb;
+}
+
+input[type="range"]::-moz-range-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: #0051a5;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  margin-top: -9px;
+  height: 24px;
+  width: 24px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 3px solid #0051a5;
+  box-shadow: 0 2px 6px rgba(0, 39, 84, 0.25);
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 24px;
+  width: 24px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 3px solid #0051a5;
+  box-shadow: 0 2px 6px rgba(0, 39, 84, 0.25);
+}
+
+input[type="range"]:disabled::-webkit-slider-thumb {
+  border-color: #b9c7da;
+}
+
+input[type="checkbox"] {
+  accent-color: #0051a5;
+  width: 18px;
+  height: 18px;
+}
+
+@layer base {
+  input[type="number"],
+  input[type="date"],
+  input[type="text"],
+  input:not([type]),
+  select {
+    border: 1px solid #c3cfdf;
+    border-radius: 10px;
+    padding: 0.55rem 0.75rem;
+    background: #ffffff;
+    color: #10213a;
+    font: inherit;
+  }
+
+  input[type="number"]:focus,
+  input[type="date"]:focus,
+  input[type="text"]:focus,
+  input:not([type]):focus,
+  select:focus {
+    outline: none;
+    border-color: #0051a5;
+    box-shadow: 0 0 0 3px rgba(0, 81, 165, 0.18);
+  }
+}
+
+/* Orbit carousel */
+.orbit-stage {
+  perspective: 1400px;
+  perspective-origin: 50% 40%;
+}
+
+.orbit-ring {
+  transform-style: preserve-3d;
+  transition: transform 1100ms var(--ease-out-expo);
+}
+
+.orbit-card {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  backface-visibility: hidden;
+  transition:
+    filter 700ms var(--ease-out-expo),
+    opacity 700ms var(--ease-out-expo);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rise {
+  animation: rise 600ms var(--ease-out-expo) both;
+}
+
+@keyframes fade-swap {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-swap {
+  animation: fade-swap 500ms var(--ease-out-expo) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbit-ring,
+  .orbit-card {
+    transition: none;
+  }
+  .rise,
+  .fade-swap {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
 }

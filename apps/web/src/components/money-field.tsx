@@ -1,97 +1,158 @@
 "use client";
 
 import { cad } from "@cardfit/engine";
+import { useId, useState, type ReactNode } from "react";
+import { OptionTile } from "./ui";
 
-export function MoneyField({
-  label,
-  hint,
+export interface Band {
+  label: string;
+  value: number;
+}
+
+/** Tappable monthly ranges with an optional exact-amount field. */
+export function BandPicker({
+  bands,
   value,
   onChange,
-  allowNegative = false,
-  compact = false,
+  name,
+}: {
+  bands: Band[];
+  value: number;
+  onChange: (value: number) => void;
+  name: string;
+}) {
+  const matches = bands.some((band) => band.value === value);
+  const [exact, setExact] = useState(!matches && value !== 0);
+  const id = useId();
+  return (
+    <div>
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+        {bands.map((band) => (
+          <OptionTile
+            key={band.label}
+            active={!exact && band.value === value}
+            title={band.label}
+            onClick={() => {
+              setExact(false);
+              onChange(band.value);
+            }}
+          />
+        ))}
+      </div>
+      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+        {exact ? (
+          <label htmlFor={id} className="flex items-center gap-3 font-medium text-ink">
+            Exact amount a month
+            <span className="relative">
+              <span aria-hidden className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted">$</span>
+              <input
+                id={id}
+                className="w-36 pl-7 text-right tabular"
+                type="number"
+                inputMode="decimal"
+                min={0}
+                step="1"
+                autoFocus
+                aria-label={`${name}, exact amount a month`}
+                value={Number.isFinite(value) ? value : 0}
+                onChange={(event) => {
+                  const next = event.target.value === "" ? 0 : Number(event.target.value);
+                  if (Number.isFinite(next) && next >= 0) onChange(next);
+                }}
+              />
+            </span>
+          </label>
+        ) : (
+          <button type="button" className="font-semibold text-rbc hover:underline" onClick={() => setExact(true)}>
+            Enter an exact amount instead
+          </button>
+        )}
+        {exact ? (
+          <button type="button" className="font-semibold text-rbc hover:underline" onClick={() => setExact(false)}>
+            Back to ranges
+          </button>
+        ) : null}
+      </div>
+    </div>
+  );
+}
+
+/** A labelled slider with a live dollar read-out, for screens that gather several smaller categories. */
+export function SliderRow({
+  label,
+  hint,
+  icon,
+  value,
+  max,
+  step = 5,
+  onChange,
 }: {
   label: string;
   hint?: string;
+  icon?: ReactNode;
   value: number;
+  max: number;
+  step?: number;
   onChange: (value: number) => void;
-  allowNegative?: boolean;
-  compact?: boolean;
 }) {
-  if (compact) {
-    return (
-      <label className="flex items-center justify-between gap-3 rounded-2xl border border-line bg-white px-4 py-3">
-        <span>
-          <span className="block font-semibold text-navy">{label}</span>
-          {hint ? <span className="block text-sm text-muted">{hint}</span> : null}
-          {value < 0 ? <span className="block text-sm text-bad">Refunds are larger than purchases.</span> : null}
-        </span>
-        <input
-          className="w-28 rounded-xl border border-line px-3 py-2 text-right tabular-nums"
-          type="number"
-          inputMode="decimal"
-          min={allowNegative ? undefined : 0}
-          step="1"
-          aria-label={`${label} per month`}
-          value={Number.isFinite(value) ? value : 0}
-          onChange={(event) => {
-            const next = event.target.value === "" ? 0 : Number(event.target.value);
-            if (!Number.isFinite(next)) return;
-            if (!allowNegative && next < 0) return;
-            onChange(next);
-          }}
-        />
-      </label>
-    );
-  }
-  const presets = [0, 50, 150, 400, 800];
+  const id = useId();
+  const clamped = Math.min(max, Math.max(0, value));
+  const fill = `${(clamped / max) * 100}%`;
   return (
-    <fieldset className="rounded-2xl border border-line bg-white p-4">
-      <legend className="px-1 text-base font-semibold text-navy">{label}</legend>
-      {hint ? <p className="mt-1 text-sm text-muted">{hint}</p> : null}
-      <p className="mt-3 text-3xl font-semibold tabular-nums text-ink">{cad(value)}<span className="ml-2 text-base font-medium text-muted">/ month</span></p>
-      {value < 0 ? (
-        <p className="mt-2 text-sm text-bad">Refunds are larger than purchases in this category, so the total stays negative and reduces rewards.</p>
-      ) : null}
+    <div className="rounded-2xl border border-line bg-white px-4 py-3.5">
+      <div className="flex items-center justify-between gap-3">
+        <label htmlFor={id} className="flex items-center gap-2.5 font-semibold text-ink">
+          {icon ? <span className="text-rbc">{icon}</span> : null}
+          <span>
+            {label}
+            {hint ? <span className="block text-xs font-medium text-muted">{hint}</span> : null}
+          </span>
+        </label>
+        <span className="relative">
+          <span aria-hidden className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-sm text-muted">$</span>
+          <input
+            className="w-24 py-1.5 pl-6 text-right text-sm font-semibold tabular"
+            type="number"
+            inputMode="decimal"
+            min={0}
+            step="1"
+            aria-label={`${label}, amount a month`}
+            value={Number.isFinite(value) ? value : 0}
+            onChange={(event) => {
+              const next = event.target.value === "" ? 0 : Number(event.target.value);
+              if (Number.isFinite(next) && next >= 0) onChange(next);
+            }}
+          />
+        </span>
+      </div>
       <input
-        className="mt-4 w-full"
+        id={id}
+        className="mt-1"
         type="range"
         min={0}
-        max={2000}
-        step={10}
-        aria-label={`${label} amount slider`}
-        value={Math.min(2000, Math.max(0, value))}
+        max={max}
+        step={step}
+        value={clamped}
+        style={{ ["--fill" as string]: fill }}
+        aria-valuetext={`${cad(clamped)} a month`}
         onChange={(event) => onChange(Number(event.target.value))}
       />
-      <div className="mt-3 flex flex-wrap gap-2">
-        {presets.map((preset) => (
-          <button
-            key={preset}
-            type="button"
-            aria-pressed={value === preset}
-            className={`rounded-full px-3 py-1.5 text-sm font-semibold ${value === preset ? "bg-navy text-white" : "bg-paper text-navy"}`}
-            onClick={() => onChange(preset)}
-          >
-            {cad(preset)}
-          </button>
-        ))}
-      </div>
-      <label className="mt-3 block text-sm text-muted">
-        Type an amount
-        <input
-          className="mt-1 w-full rounded-xl border border-line px-3 py-2 text-ink"
-          type="number"
-          inputMode="decimal"
-          min={allowNegative ? undefined : 0}
-          step="1"
-          value={Number.isFinite(value) ? value : 0}
-          onChange={(event) => {
-            const next = event.target.value === "" ? 0 : Number(event.target.value);
-            if (!Number.isFinite(next)) return;
-            if (!allowNegative && next < 0) return;
-            onChange(next);
-          }}
-        />
-      </label>
-    </fieldset>
+      {value < 0 ? <p className="text-sm text-bad">Refunds are larger than purchases in this category.</p> : null}
+    </div>
+  );
+}
+
+/** Compact number input used by the full editor. */
+export function NumberCell({ label, value, onChange }: { label: string; value: number; onChange: (value: number) => void }) {
+  const id = useId();
+  return (
+    <label htmlFor={id} className="block text-sm font-semibold text-ink">
+      {label}
+      {value < 0 ? <span className="ml-1 font-medium text-bad">Refunds exceed purchases</span> : null}
+      <span className="relative mt-1 block">
+        <span aria-hidden className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted">$</span>
+        <input id={id} className="w-full pl-7 tabular" type="number" step="1" value={value} onChange={(event) => onChange(event.target.value === "" ? 0 : Number(event.target.value))} />
+      </span>
+    </label>
   );
 }

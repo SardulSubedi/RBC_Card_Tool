@@ -34,6 +34,7 @@ test("no travel card qualifies when the fee limit is zero", async ({ page }) => 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");
   await page.getByTestId("demo-student").click();
+  await page.getByTestId("adjust").click();
   await page.getByTestId("focus-travel").click();
   await expect(page.getByTestId("empty-state")).toContainText("No travel card");
   await page.screenshot({ path: join(shots, "empty-mobile.png"), fullPage: true });

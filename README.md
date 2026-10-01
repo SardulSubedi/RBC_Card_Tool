@@ -10,11 +10,11 @@ The question it answers:
 
 ## What a reviewer can do
 
-1. Answer six short questions about monthly spending, the annual fee they will consider, and whether they pay the balance in full.
+1. Answer eight short questions, one per screen, about monthly spending ranges, the annual fee they will consider, what they want back, and whether they pay the balance in full. Income and credit score are optional on the last screen.
 2. Or upload a CSV. The file stays in the browser tab. It is not uploaded or stored.
-3. Or open a fictional demo: student, grocery household, frequent traveller, or someone carrying a balance.
-4. Read the top cards, the category breakdown, the comparison, and how the number was built.
-5. Move spending up or down, or replace a point value, and see the ranking recalculate.
+3. Or open a fictional sample: student, grocery household, frequent traveller, or someone carrying a balance.
+4. Read the best match, the runners-up, the category breakdown, the side-by-side comparison, and how the number was built.
+5. Open **What if my spending changes?** to scale spending up or down, or **Adjust numbers** to type exact amounts and replace a point value, and watch the ranking recalculate.
 
 Optional credit score is accepted and then ignored. RBC does not publish a score cutoff on these pages, and this tool does not estimate approval.
 
